@@ -58,9 +58,14 @@ Edit them to reflect Access Accounts available, and regions in scope. Save the e
 ### What to expect
 
 #### Before depployment
+
 <img src="img/derby-preakness-before.png">
 
+
+
 #### After depployment, with ha spokes enabled
+
+
 <img src="img/derby-preakness-after.png">
 
 
