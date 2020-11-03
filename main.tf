@@ -96,7 +96,7 @@ module "aws_spoke5" {
 # Azure Transit Module
 module "azure_transit_1" {
   source                 = "terraform-aviatrix-modules/azure-transit-firenet/aviatrix"
-  version                = "1.0.2"
+  version                = "1.1.1"
   ha_gw                  = true
   cidr                   = var.azure_transit_cidr1
   region                 = var.azure_region1
@@ -108,7 +108,7 @@ module "azure_transit_1" {
 # Azure Spoke 1 
 module "azure_spoke1" {
   source     = "terraform-aviatrix-modules/azure-spoke/aviatrix"
-  version    = "1.0.1"
+  version    = "1.1.1"
   name       = var.azure_spoke1_name
   cidr       = var.azure_spoke1_cidr
   region     = var.azure_spoke1_region
@@ -120,7 +120,7 @@ module "azure_spoke1" {
 # Azure Spoke 2
 module "azure_spoke2" {
   source     = "terraform-aviatrix-modules/azure-spoke/aviatrix"
-  version    = "1.0.1"
+  version    = "1.1.1"
   name       = var.azure_spoke2_name
   cidr       = var.azure_spoke2_cidr
   region     = var.azure_spoke2_region
