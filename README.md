@@ -57,13 +57,13 @@ Edit them to reflect Access Accounts available, and regions in scope. Save the e
 - ```terraform apply --auto-approve```
 ### What to expect
 
-#### Before depployment
+#### Before deployment
 
 <img src="img/derby-preakness-before.png">
 
 
 
-#### After depployment, with ha spokes enabled
+#### After deployment, with ha spokes enabled
 
 
 <img src="img/derby-preakness-after.png">
