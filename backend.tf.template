@@ -1,0 +1,9 @@
+terraform {
+  backend "remote" {
+    organization = "aviatrix-tf-solutions"
+
+    workspaces {
+      name = "derby-preakness"
+    }
+  }
+}
