@@ -100,7 +100,7 @@ module "azure_transit_1" {
   ha_gw                  = true
   cidr                   = var.azure_transit_cidr1
   region                 = var.azure_region1
-  account_name           = var.azure_account_name
+  account.               = var.azure_account_name
   firewall_image         = "Palo Alto Networks VM-Series Next-Generation Firewall Bundle 1"
   firewall_image_version = "9.1.0"
 }
