@@ -57,10 +57,7 @@ Edit them to reflect Access Accounts available, and regions in scope. Save the e
 - ```terraform apply --auto-approve```
 ### What to expect
 
-#### Without ha spokes enabled
-<img src="img/standard-POC-3c-FireNet-HPE-HA-spokes.png">
-
-#### With ha spokes enabled
+#### After depployment, with ha spokes enabled
 <img src="img/derby-preakness-after.png">
 
 
