@@ -58,10 +58,11 @@ Edit them to reflect Access Accounts available, and regions in scope. Save the e
 ### What to expect
 
 #### Without ha spokes enabled
-<img src="img/derby-preakness-after.png">
+<img src="img/standard-POC-3c-FireNet-HPE-HA-spokes.png">
 
 #### With ha spokes enabled
-<img src="img/standard-POC-3c-FireNet-HPE-HA-spokes.png">
+<img src="img/derby-preakness-after.png">
+
 
 ### Backend Configuration (Optional)
 
